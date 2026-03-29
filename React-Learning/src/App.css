@@ -23,3 +23,25 @@ margin-left: 50px;
   list-style: none;
   font-size: 18px;
 }
+.card{
+  display: flex;
+  flex-direction: column;
+  background-color: #222;
+  margin: 80px;
+  padding: 20px;
+  text-align: center;
+  /* height: 80px; */
+  align-items: center;
+  border-radius: 20px;
+  
+}
+.card-button{
+  background-color: white;
+  
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 120px;
+  margin-top: 20px;
+}

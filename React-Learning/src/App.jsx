@@ -1,23 +1,15 @@
 import React from 'react'
 import './App.css'
-
+import NavBar from './Components/nav-bar'
+import Card from './Components/card'
 function App() {
   return (
-    <> 
-    <div className='nav'>
-      <div className='nav-logo'>
-        <img  src="src/assets/react.svg" alt="Logo" srcset="" />
-      </div>
-      <div className='nav-items'>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-      </div>
+    <div>
+      <NavBar />
+      <Card user="Mani" age="25" />
+      <Card user="basit" age="25" />
+      <Card user="ali" age="25" />
     </div>
-    
-     </>
   )}
 
 export default App
