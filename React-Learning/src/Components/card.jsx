@@ -1,16 +1,17 @@
 import React from 'react'
 
 
-function Card({ user, age }) {
+function Card({ user, age, img }) {
   return (
     <>
+    <div className="container">
     <div className="card">
-      <h3>React Fun facts</h3>
-      <p>React was build by {user}</p>
+        <img src={img} alt="" />
+      <h1>{user}</h1>
       <p>Age: {age}</p>
       <button className='card-button'>Learn More</button>
     </div>
-    
+    </div>
     </>
   )
 }
